@@ -67,7 +67,7 @@ struct ContentView: View {
                                 .resizable()
                                 .aspectRatio( contentMode: .fit)
                                 .padding(.leading)
-                                .frame(width: geo.size.width, height: geo.size.height / 3, alignment: .center)
+                                .frame(width: geo.size.width / 1.5, height: geo.size.height / 3, alignment: .center)
                             
                         }
                         
